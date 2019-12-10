@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!ELEMENT excel  (colgroup* | title* | thead* | tbody* )+>
+        <!ATTLIST excel id CDATA #IMPLIED>
+        <!ATTLIST excel code CDATA #IMPLIED>
+        <!ATTLIST excel name CDATA #IMPLIED>
+
+        <!ELEMENT colgroup (col*)+>
+        <!ELEMENT col (#PCDATA)>
+        <!ATTLIST col index CDATA #IMPLIED>
+        <!ATTLIST col width CDATA #IMPLIED>
+
+        <!ELEMENT title (tr+)>
+
+        <!ELEMENT thead  (tr)+>
+
+        <!ELEMENT tbody  (tr)+>
+
+        <!ATTLIST tr height CDATA #IMPLIED
+                isbold (true | false) #IMPLIED
+                fontsize CDATA #IMPLIED
+                fontname CDATA #IMPLIED
+                color CDATA #IMPLIED
+                firstrow CDATA #IMPLIED
+                lastrow CDATA #IMPLIED
+                firstcol CDATA #IMPLIED
+                align (general | left | center | right | fill | justify | center_selection | distributed) #IMPLIED
+                verticalalign (top | center | bottom | justify | distributed) #IMPLIED
+                borderall (none | thin | medium | dashed | dotted | thick | double | hair | medium_dashed | dash_dot | medium_dash_dot | dash_dot_dot |
+                        medium_dash_dot_dot | slanted_dash_dot) #IMPLIED
+                bordertop (none | thin | medium | dashed | dotted | thick | double | hair | medium_dashed | dash_dot | medium_dash_dot | dash_dot_dot |
+                        medium_dash_dot_dot | slanted_dash_dot) #IMPLIED
+                borderright (none | thin | medium | dashed | dotted | thick | double | hair | medium_dashed | dash_dot | medium_dash_dot | dash_dot_dot |
+                        medium_dash_dot_dot | slanted_dash_dot) #IMPLIED
+                borderbottom (none | thin | medium | dashed | dotted | thick | double | hair | medium_dashed | dash_dot | medium_dash_dot | dash_dot_dot |
+                        medium_dash_dot_dot | slanted_dash_dot) #IMPLIED
+                borderleft (none | thin | medium | dashed | dotted | thick | double | hair | medium_dashed | dash_dot | medium_dash_dot | dash_dot_dot |
+                        medium_dash_dot_dot | slanted_dash_dot) #IMPLIED>
+
+        <!ELEMENT tr (th*,td*)?>
+
+        <!ELEMENT th (#PCDATA)>
+        <!ATTLIST th value CDATA #IMPLIED>
+        <!ATTLIST th firstcol CDATA #IMPLIED>
+        <!ATTLIST th lastcol CDATA #IMPLIED>
+
+        <!ELEMENT td (#PCDATA)>
+        <!ATTLIST td value CDATA #IMPLIED
+                firstcol CDATA #IMPLIED
+                lastcol CDATA #IMPLIED
+                type (numeric | string | numeric | enum | date | enum) #IMPLIED
+
+                isnullable (true | false) #IMPLIED
+                maxlength CDATA #IMPLIED
+                format CDATA #IMPLIED>

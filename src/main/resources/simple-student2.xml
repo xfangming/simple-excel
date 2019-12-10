@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE excel PUBLIC "excel" "https://tobiasy.oss-cn-beijing.aliyuncs.com/dtd/simple-excel.dtd">-->
+<!DOCTYPE excel SYSTEM "others/dtd/simple-excel.dtd">
+<excel>
+    <sheet name="学生表">
+        <colgroup>
+            <col index="A" width='17em'/>
+            <col index="B" width='17em'/>
+            <col index="C" width='15em'/>
+            <col index="D" width='17em'/>
+            <col index="E" width='17em'/>
+            <col index="F" width='17em'/>
+        </colgroup>
+        <head>
+            <tr height="12px"  align="center" verticalalign="center" isbold = "true" fontsize="10px"><!--  color="18" -->
+                <td>编号</td>
+                <td>姓名</td>
+                <td>年龄</td>
+                <td>性别</td>
+                <td>出生日期</td>
+                <td>爱好</td>
+                <td>价格</td>
+            </tr>
+        </head>
+        <body>
+
+        </body>
+
+
+    </sheet>
+
+
+</excel>

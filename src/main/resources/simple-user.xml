@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE excel PUBLIC "excel" "https://tobiasy.oss-cn-beijing.aliyuncs.com/dtd/simple-excel.dtd">
+<!--<!DOCTYPE excel SYSTEM "others/dtd/simple-excel.dtd">-->
+<excel>
+    <sheet name="用户表">
+        <colgroup>
+            <col index="A" width='17em'/>
+            <col index="B" width='17em'/>
+            <col index="I" width='17em'/>
+        </colgroup>
+        <head>
+            <tr allalign="center" height="20px" isbold="true" fontsize="12px" fontname="黑体" borderall="hair">
+                <td colspan="9">用户信息表</td>
+            </tr>
+            <tr align="left" height="12px" verticalalign="center">
+                <td colspan="9">描述：用户数据包含xxx，出生年月默认格式：2019-01-01</td>
+            </tr>
+            <tr align="center" height="15px" verticalalign="center">
+                <td rowspan="7">序号</td>
+                <td>姓名</td>
+                <td colspan="2">性别</td>
+                <td colspan="2">年龄</td>
+                <td colspan="2" rowspan="3">出生年月</td>
+                <td rowspan="7">爱好</td>
+            </tr>
+            <tr align="center" verticalalign="center">
+                <td rowspan="6">（真实名字）</td>
+                <td rowspan="6">枚举</td>
+                <td rowspan="2">男</td>
+                <td rowspan="3">最小值</td>
+                <td rowspan="3">0</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr align="center" verticalalign="center">
+                <td rowspan="2">女</td>
+                <td rowspan="4">注意事项</td>
+                <td rowspan="4">格式</td>
+            </tr>
+            <tr align="center" verticalalign="center">
+                <td rowspan="3">最大值</td>
+                <td rowspan="3">100</td>
+            </tr>
+            <tr align="center" verticalalign="center">
+                <td rowspan="2">无</td>
+            </tr>
+        </head>
+        <body>
+            <tr firstrow="9" height="10px" allalign="center" color="100">
+                <td index="0" property="code"/><!--序号 -->
+                <td index="1" property="name"/><!--姓名 -->
+                <td index="2" property="sex" columnsize="2" /><!--性别 -->
+                <td index="4" property="age" columnsize="2" /><!--年龄 -->
+                <td index="6" property="birthday" columnsize="2" /><!--出生年月 -->
+                <td index="8" property="favourite" columnsize="1" /><!--爱好 -->
+            </tr>
+
+        </body>
+    </sheet>
+    <sheet>
+
+        <head>
+            <tr allalign="center" height="20px" isbold="true" fontsize="12px" fontname="黑体" borderall="hair">
+                <td colspan="9">用户信息表1</td>
+            </tr>
+            <tr align="left" height="12px" verticalalign="center">
+                <td colspan="9">描述：用户数据包含xxx，出生年月默认格式：2019-01-01</td>
+            </tr>
+            <tr align="center" height="15px" verticalalign="center">
+                <td rowspan="7">序号</td>
+                <td>姓名</td>
+                <td colspan="2">性别</td>
+                <td colspan="2">年龄</td>
+                <td colspan="2" rowspan="3">出生年月</td>
+                <td rowspan="7">爱好</td>
+            </tr>
+            <tr align="center" verticalalign="center">
+                <td rowspan="6">（真实名字）</td>
+                <td rowspan="6">枚举</td>
+                <td rowspan="2">男</td>
+                <td rowspan="3">最小值</td>
+                <td rowspan="3">0</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr align="center" verticalalign="center">
+                <td rowspan="2">女</td>
+                <td rowspan="4">注意事项</td>
+                <td rowspan="4">格式</td>
+            </tr>
+            <tr align="center" verticalalign="center">
+                <td rowspan="3">最大值</td>
+                <td rowspan="3">100</td>
+            </tr>
+            <tr align="center" verticalalign="center">
+                <td rowspan="2">无</td>
+            </tr>
+        </head>
+        <body>
+            <tr firstrow="9" height="10px" allalign="center" color="100">
+                <td index="0" property="code"/><!--序号 -->
+                <td index="1" property="name"/><!--姓名 -->
+                <td index="2" property="sex" columnsize="2" /><!--性别 -->
+                <td index="4" property="age" columnsize="2" /><!--年龄 -->
+                <td index="6" property="birthday" columnsize="2" /><!--出生年月 -->
+                <td index="8" property="favourite" columnsize="1" /><!--爱好 -->
+            </tr>
+
+        </body>
+    </sheet>
+
+</excel>

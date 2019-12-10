@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE excel PUBLIC "excel" "https://tobiasy.oss-cn-beijing.aliyuncs.com/dtd/simple-excel.dtd">-->
+<!--<!DOCTYPE excel SYSTEM "others/dtd/simple-excel.dtd">-->
+<excel>
+    <sheet name="学生表">
+        <colgroup>
+            <col index="A" width='17em'/>
+            <col index="B" width='17em'/>
+            <col index="C" width='15em'/>
+            <col index="D" width='17em'/>
+            <col index="E" width='17em'/>
+            <col index="F" width='17em'/>
+        </colgroup>
+        <head>
+            <tr allalign="center" height="20px" isbold="true" fontsize="12px" fontname="黑体">
+                <td colspan="7">用户信息表</td>
+            </tr>
+            <tr align="center" height="12px" fontsize="10px" isbold="true" verticalalign="center">
+                <td rowspan="2">编号</td>
+                <td>姓名</td>
+                <td>性别</td>
+                <td>年龄</td>
+                <td>生日</td>
+                <td>爱好</td>
+                <td rowspan="2">排名</td>
+            </tr>
+            <tr height="10px">
+                <td>name</td>
+                <td>sex</td>
+                <td>age</td>
+                <td>birthday</td>
+                <td>favourite</td>
+            </tr>
+        </head>
+        <body>
+            <tr firstrow="10" height="10px" allalign="center" color="100"><!--  borderall="hair" -->
+                <td index="0" property="code"/><!--序号 -->
+                <td index="1" property="name"/><!--姓名 -->
+                <td index="2" property="sex" columnsize="1" /><!--性别 -->
+                <td index="3" property="age" columnsize="1" /><!--年龄 -->
+                <td index="4" property="birthday" columnsize="1" dateformat="yyyy-MM-dd HH:mm:ss" /><!--出生年月 -->
+                <td index="5" property="favourite" columnsize="1" /><!--爱好 -->
+                <!--<td index="6" formula="SUM(A${rownum}:D${rownum})" columnsize="1" />&lt;!&ndash;函数 &ndash;&gt;-->
+                <!--<td index="7" formula="IF(D${rownum}>30,'成年人',18)" columnsize="1" />&lt;!&ndash;函数 &ndash;&gt;-->
+            </tr>
+
+        </body>
+
+    </sheet>
+    <sheet>
+        <colgroup>
+            <col index="A" width='17em'/>
+            <col index="B" width='17em'/>
+            <col index="C" width='15em'/>
+            <col index="D" width='17em'/>
+            <col index="E" width='17em'/>
+            <col index="F" width='17em'/>
+        </colgroup>
+        <body>
+            <tr firstrow="1" height="10px" allalign="center" color="100"><!--  borderall="hair" -->
+                <td index="0" property="code"/><!--序号 -->
+                <td index="1" property="name"/><!--姓名 -->
+                <td index="2" property="sex" columnsize="1" /><!--性别 -->
+                <td index="3" property="age" columnsize="1" /><!--年龄 -->
+                <td index="4" property="birthday" columnsize="1" /><!--出生年月 -->
+                <td index="5" property="favourite" columnsize="1" /><!--爱好 -->
+            </tr>
+
+        </body>
+    </sheet>
+
+</excel>
